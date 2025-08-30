@@ -3,9 +3,9 @@
 	"id": "anare",
 	"version": "${version}",
 	"name": "Anare",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "magic mod that focusses on enhancing vanilla minecraft",
 	"authors": [
-		"Me!"
+		"Alice Everglade"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -20,7 +20,10 @@
 		],
 		"fabric-datagen": [
 			"com.aliceeverglade.anare.AnareDataGenerator"
-		]
+		],
+        "client": [
+          "com.aliceeverglade.anare.AnareClient"
+        ]
 	},
 	"mixins": [
 		"anare.mixins.json"
