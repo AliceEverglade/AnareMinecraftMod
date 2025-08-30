@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "anare:block/mythril_block"
+    }
+  }
+}

@@ -1,5 +1,7 @@
 package com.aliceeverglade.anare;
 
+import com.aliceeverglade.anare.block.ModBlocks;
+import com.aliceeverglade.anare.item.ModItemGroups;
 import com.aliceeverglade.anare.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +15,9 @@ public class Anare implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ModItemGroups.registerItemGroups();
+
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }

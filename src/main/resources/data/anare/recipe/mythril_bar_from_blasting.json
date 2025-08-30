@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1,
+  "group": "mythril",
+  "ingredient": {
+    "item": "anare:raw_mythril"
+  },
+  "result": {
+    "item": "anare:mythril_bar"
+  }
+}

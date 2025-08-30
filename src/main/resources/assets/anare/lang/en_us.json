@@ -1,4 +1,12 @@
+
 {
   "item.anare.raw_mythril": "Raw Mythril",
-  "item.anare.mythril_bar": "Mythril Bar"
+  "item.anare.mythril_bar": "Mythril Bar",
+
+  "block.anare.mythril_ore": "Mythril Ore",
+  "block.anare.mythril_deepslate_ore": "Mythril Deepslate Ore",
+  "block.anare.mythril_block": "Block of Mythril",
+  "block.anare.raw_mythril_block": "Block of Raw Mythril",
+
+  "itemgroup.anare.main_group": "Anare"
 }
