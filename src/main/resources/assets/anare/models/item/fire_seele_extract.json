@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures":
+  {
+    "layer0": "anare:item/fire_seele_extract"
+  }
+}

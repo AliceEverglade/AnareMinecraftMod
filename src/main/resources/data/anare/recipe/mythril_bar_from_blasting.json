@@ -8,6 +8,6 @@
     "item": "anare:raw_mythril"
   },
   "result": {
-    "item": "anare:mythril_bar"
+    "id": "anare:mythril_bar"
   }
 }

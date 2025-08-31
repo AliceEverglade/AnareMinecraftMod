@@ -1,12 +1,23 @@
 
 {
+  "tooltip.anare.shift": "Hold Shift for more Info",
+
   "item.anare.raw_mythril": "Raw Mythril",
   "item.anare.mythril_bar": "Mythril Bar",
+  "item.anare.mythril_donut": "Mythril Donut",
+  "item.anare.empty_vial": "Empty Vial",
+  "item.anare.fire_seele_extract": "Fire Seele Extract",
+
+  "item.anare.mythril_hammer": "Mythril Hammer",
+  "tooltip.anare.hammer": "A hammer of many talents",
+  "tooltip.anare.hammer.extra": "It can break down stone, gravel and sand, create spots for amethyst to grow and can be used for crafting on the anvil!",
 
   "block.anare.mythril_ore": "Mythril Ore",
   "block.anare.mythril_deepslate_ore": "Mythril Deepslate Ore",
   "block.anare.mythril_block": "Block of Mythril",
   "block.anare.raw_mythril_block": "Block of Raw Mythril",
+  "block.anare.mythril_anvil_block": "Mythril Anvil",
+  "tooltip.anare.arcane_anvil_block": "Drop items ontop and use a hammer on it, maybe something happens with certain materials!",
 
   "itemgroup.anare.main_group": "Anare"
 }

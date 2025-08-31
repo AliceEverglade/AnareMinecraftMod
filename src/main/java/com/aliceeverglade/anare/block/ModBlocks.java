@@ -1,6 +1,7 @@
 package com.aliceeverglade.anare.block;
 
 import com.aliceeverglade.anare.Anare;
+import com.aliceeverglade.anare.block.custom.ArcaneAnvilBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -28,9 +29,13 @@ public class ModBlocks {
     public static final Block MYTHRIL_ORE = registerBlock("mythril_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
     public static final Block MYTHRIL_DEEPSLATE_ORE = registerBlock("mythril_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(4,7),
                     AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block MYTHRIL_ANVIL_BLOCK = registerBlock("mythril_anvil_block",
+            new ArcaneAnvilBlock(AbstractBlock.Settings.create().strength(7f).requiresTool().sounds(BlockSoundGroup.ANVIL)));
 
     private static Block registerBlock(String name, Block block)
     {

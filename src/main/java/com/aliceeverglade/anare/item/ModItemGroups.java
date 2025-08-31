@@ -22,10 +22,13 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_MYTHRIL);
                         entries.add(ModItems.MYTHRIL_BAR);
                         entries.add((ModBlocks.MYTHRIL_ORE));
-                        entries.add((ModBlocks.MYTHRIL_DEEPSLATE_ORE));
-                        entries.add((ModBlocks.RAW_MYTHRIL_BLOCK));
+                        entries.add(ModBlocks.MYTHRIL_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.RAW_MYTHRIL_BLOCK);
                         entries.add(ModBlocks.MYTHRIL_BLOCK);
-
+                        entries.add(ModBlocks.MYTHRIL_ANVIL_BLOCK);
+                        entries.add(ModItems.MYTHRIL_DONUT);
+                        entries.add(ModItems.EMPTY_VIAL);
+                        entries.add(ModItems.FIRE_SEELE_EXTRACT);
                     })).build());
 
     public static void registerItemGroups()
