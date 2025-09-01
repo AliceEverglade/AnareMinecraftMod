@@ -19,6 +19,7 @@ public class ModItems {
     public static final Item MYTHRIL_DONUT = registerItem("mythril_donut",new Item(new Item.Settings().food(ModFoodComponents.MYTHRIL_DONUT)));
     public static final Item EMPTY_VIAL = registerItem("empty_vial",new Item(new Item.Settings().fireproof()));
     public static final Item FIRE_SEELE_EXTRACT = registerItem("fire_seele_extract",new Item(new Item.Settings().fireproof()));
+    public static final Item FIRE_ESSENCE = registerItem("fire_essence",new Item(new Item.Settings().fireproof()));
 
     private static Item registerItem(String name, Item item)
     {
@@ -27,6 +28,7 @@ public class ModItems {
     public static void registerModItems()
     {
         FuelRegistry.INSTANCE.add(ModItems.FIRE_SEELE_EXTRACT, 2400);
+        FuelRegistry.INSTANCE.add(ModItems.FIRE_ESSENCE,200);
 
         Anare.LOGGER.info("Registering Mod Items for " + Anare.MOD_ID);
     }

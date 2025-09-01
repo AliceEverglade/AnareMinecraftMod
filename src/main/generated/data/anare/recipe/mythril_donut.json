@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:hay_block"
+    },
+    "X": {
+      "item": "anare:mythril_block"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XOX",
+    "XXX"
+  ],
+  "result": {
+    "count": 12,
+    "id": "anare:mythril_donut"
+  }
+}

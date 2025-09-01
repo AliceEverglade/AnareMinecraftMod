@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "anare:fire_essence"
+    },
+    {
+      "item": "anare:fire_essence"
+    },
+    {
+      "item": "anare:fire_essence"
+    },
+    {
+      "item": "anare:fire_essence"
+    },
+    {
+      "item": "anare:fire_essence"
+    },
+    {
+      "item": "anare:fire_essence"
+    },
+    {
+      "item": "anare:fire_essence"
+    },
+    {
+      "item": "anare:fire_essence"
+    },
+    {
+      "item": "anare:empty_vial"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "anare:fire_seele_extract"
+  }
+}

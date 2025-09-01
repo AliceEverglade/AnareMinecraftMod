@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "anare:mythril_block"
+    }
+  },
+  "pattern": [
+    " XX",
+    " OX",
+    "O  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "anare:mythril_hammer"
+  }
+}

@@ -1,18 +1,15 @@
 package com.aliceeverglade.anare.block.custom;
 
 import com.aliceeverglade.anare.item.ModItems;
+import com.aliceeverglade.anare.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.item.tooltip.TooltipType;
-import net.minecraft.server.network.ServerPlayerEntity;
-import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
@@ -28,17 +25,18 @@ public class ArcaneAnvilBlock extends Block {
     public ArcaneAnvilBlock(Settings settings) {
         super(settings);
     }
-
-    private static final Map<Item, Item> ANVIL_MAP =
+    public enum EElement{
+        None,Fire,
+    }
+    private static final Map<EElement, Item> ANVIL_MAP =
             Map.of(
-                    Items.COAL,Items.DIAMOND,
-                    Items.GOLD_INGOT,ModItems.MYTHRIL_BAR
+                    EElement.Fire,ModItems.FIRE_ESSENCE
             );
     @Override
     protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
         ItemStack stack = player.getMainHandStack();
         boolean success = false;
-        if(stack.isOf(ModItems.MYTHRIL_HAMMER)) //WIP FIND WAY TO CHECK PROPERLY<------
+        if(stack.isOf(ModItems.MYTHRIL_HAMMER))
         {
             List<Entity> colliding = world.getOtherEntities(
                     null,
@@ -52,12 +50,13 @@ public class ArcaneAnvilBlock extends Block {
             {
                 if (entity instanceof ItemEntity itemEntity)
                 {
-                    if(ANVIL_MAP.containsKey(itemEntity.getStack().getItem()))
+                    EElement element = getElement(itemEntity.getStack());
+                    if(element != EElement.None)
                     {
                         if(currentDmg + appliedDmg + itemEntity.getStack().getCount() < stack.getMaxDamage())
                         {
                             success = true;
-                            itemEntity.setStack(new ItemStack(ANVIL_MAP.get(itemEntity.getStack().getItem()),itemEntity.getStack().getCount()));
+                            itemEntity.setStack(new ItemStack(ANVIL_MAP.get(element),itemEntity.getStack().getCount()));
                             appliedDmg += itemEntity.getStack().getCount();
                         }
                     }
@@ -71,6 +70,11 @@ public class ArcaneAnvilBlock extends Block {
             }
         }
         return ActionResult.FAIL;
+    }
+
+    private EElement getElement(ItemStack stack){
+        if(stack.isIn(ModTags.Items.ESSENCE_DEGRADABLE_FIRE)) return EElement.Fire;
+        return EElement.None;
     }
 
     @Override

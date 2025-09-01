@@ -1,0 +1,9 @@
+{
+  "values": [
+    "anare:raw_mythril_block",
+    "anare:mythril_block",
+    "anare:mythril_anvil_block",
+    "anare:mythril_ore",
+    "anare:mythril_deepslate_ore"
+  ]
+}
