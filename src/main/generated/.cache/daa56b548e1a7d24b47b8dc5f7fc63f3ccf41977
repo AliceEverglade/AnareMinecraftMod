@@ -1,5 +1,7 @@
-// 1.21	2025-09-01T21:08:48.690588	Anare/Block Loot Tables
+// 1.21	2025-09-02T19:01:48.0159918	Anare/Block Loot Tables
 73c8a8ceed810781991b03484179fd3b6c4e22dc data\anare\loot_table\blocks\mythril_block.json
+093d1bf650c64fed5d41b35f879766d265071f80 data\anare\loot_table\blocks\mythril_forge.json
+86326c0e642c8a27cc1a114e5a475d18ab5b26f0 data\anare\loot_table\blocks\mythril_stairs.json
 031a886b6864b4ef42c3eced2a4168e646f2e477 data\anare\loot_table\blocks\mythril_deepslate_ore.json
 b7ca3db52362ad62b9332b93cababe17a0cdc841 data\anare\loot_table\blocks\raw_mythril_block.json
 f045a72bacc5fe6307db1b61fc0efb90e89671a9 data\anare\loot_table\blocks\mythril_anvil_block.json

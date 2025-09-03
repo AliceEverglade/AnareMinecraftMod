@@ -1,4 +1,4 @@
-// 1.21	2025-09-01T21:08:48.6915873	Anare/Recipes
+// 1.21	2025-09-02T19:01:48.0174907	Anare/Recipes
 4dee86bc97542d9f87cfc3128397beb29bf83d28 data\anare\recipe\mythril_bar_from_blasting_raw_mythril.json
 4e164fd4d496e3444475541a1f0bebbaf613ffe6 data\anare\recipe\mythril_bar.json
 51a90ee6ecbb22ae4c6228dbc0d09bec983efa16 data\anare\advancement\recipes\building_blocks\raw_mythril.json
@@ -11,10 +11,12 @@ b374fa4d2fb75837050163262d65bd15cfd5cc63 data\anare\advancement\recipes\building
 89aba71832b42d8d05ad4eb11b0289b1e7117912 data\anare\recipe\mythril_bar_from_smelting_mythril_deepslate_ore.json
 e7b46d68621df6c6805294a076435b8a26906989 data\anare\recipe\raw_mythril_block.json
 b1b4e66f78bebfb80cc79d28ba225f5b6d3338b6 data\anare\recipe\raw_mythril.json
+716bed3e84c1279c057a3695ab2a259fbad6f38f data\anare\advancement\recipes\misc\mythril_forge.json
 35c304a230fa013789ba4254d3c7068285d32776 data\anare\recipe\mythril_block.json
 4bf7f83c4ba37c6f55796b8614ed0e2ab6b7e133 data\anare\recipe\mythril_donut.json
 d58ba243da08f9cd5a3c55280d12efde7cbf8ec9 data\anare\advancement\recipes\misc\mythril_bar_from_blasting_raw_mythril.json
 6341c763c6c1779e753402e09c40476c2bbec3d3 data\anare\advancement\recipes\misc\mythril_hammer.json
+d5a4f6b95c176c8cc6162ae855fc4b165768e890 data\anare\recipe\mythril_forge.json
 3f0623d0f7179b540fb846f2b84805f0745d82f7 data\anare\recipe\fire_extract_recipe.json
 1912fb1436229946b3e9c87b7bd2013afc5642d2 data\anare\recipe\mythril_bar_from_smelting_mythril_ore.json
 4193cbd9626dd9fbd3ff76264ceba68593ae9d12 data\anare\advancement\recipes\misc\mythril_bar_from_blasting_mythril_deepslate_ore.json

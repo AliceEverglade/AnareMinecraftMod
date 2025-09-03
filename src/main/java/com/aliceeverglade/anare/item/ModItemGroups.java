@@ -26,9 +26,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_MYTHRIL_BLOCK);
                         entries.add(ModBlocks.MYTHRIL_BLOCK);
                         entries.add(ModBlocks.MYTHRIL_ANVIL_BLOCK);
+                        entries.add(ModBlocks.MYTHRIL_STAIRS);
                         entries.add(ModItems.MYTHRIL_DONUT);
                         entries.add(ModItems.EMPTY_VIAL);
                         entries.add(ModItems.FIRE_SEELE_EXTRACT);
+                        entries.add(ModBlocks.MYTHRIL_FORGE);
                     })).build());
 
     public static void registerItemGroups()

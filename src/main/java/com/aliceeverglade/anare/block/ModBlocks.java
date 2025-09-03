@@ -2,10 +2,12 @@ package com.aliceeverglade.anare.block;
 
 import com.aliceeverglade.anare.Anare;
 import com.aliceeverglade.anare.block.custom.ArcaneAnvilBlock;
+import com.aliceeverglade.anare.block.custom.ArcaneForgeBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -36,6 +38,13 @@ public class ModBlocks {
 
     public static final Block MYTHRIL_ANVIL_BLOCK = registerBlock("mythril_anvil_block",
             new ArcaneAnvilBlock(AbstractBlock.Settings.create().strength(7f).requiresTool().sounds(BlockSoundGroup.ANVIL)));
+
+    public static final Block MYTHRIL_STAIRS = registerBlock("mythril_stairs",
+            new StairsBlock(ModBlocks.MYTHRIL_BLOCK.getDefaultState(),AbstractBlock.Settings.create().strength(3f).requiresTool()));
+
+    public static final Block MYTHRIL_FORGE = registerBlock("mythril_forge",
+            new ArcaneForgeBlock(AbstractBlock.Settings.create().strength(4f).requiresTool()
+                    .luminance(state -> state.get(ArcaneForgeBlock.LIT) ? 15 : 0)));
 
     private static Block registerBlock(String name, Block block)
     {

@@ -29,6 +29,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MYTHRIL_BLOCK);
         addDrop(ModBlocks.RAW_MYTHRIL_BLOCK);
         addDrop(ModBlocks.MYTHRIL_ANVIL_BLOCK);
+        addDrop(ModBlocks.MYTHRIL_STAIRS);
+        addDrop(ModBlocks.MYTHRIL_FORGE);
 
         addDrop(ModBlocks.MYTHRIL_ORE,multipleOreDrops(ModBlocks.MYTHRIL_ORE,ModItems.RAW_MYTHRIL,2,4));
         addDrop(ModBlocks.MYTHRIL_DEEPSLATE_ORE,multipleOreDrops(ModBlocks.MYTHRIL_ORE,ModItems.RAW_MYTHRIL,4,7));

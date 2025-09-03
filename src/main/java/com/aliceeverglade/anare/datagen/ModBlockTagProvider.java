@@ -23,7 +23,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MYTHRIL_BLOCK)
                 .add(ModBlocks.MYTHRIL_ANVIL_BLOCK)
                 .add(ModBlocks.MYTHRIL_ORE)
-                .add(ModBlocks.MYTHRIL_DEEPSLATE_ORE);
+                .add(ModBlocks.MYTHRIL_DEEPSLATE_ORE)
+                .add(ModBlocks.MYTHRIL_STAIRS)
+                .add(ModBlocks.MYTHRIL_FORGE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_MYTHRIL_BLOCK)

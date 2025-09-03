@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "anare:block/mythril_forge"
+    },
+    "lit=true": {
+      "model": "anare:block/mythril_forge_on"
+    }
+  }
+}

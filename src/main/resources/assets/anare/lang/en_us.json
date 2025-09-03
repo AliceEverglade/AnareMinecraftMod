@@ -17,6 +17,9 @@
   "block.anare.mythril_deepslate_ore": "Mythril Deepslate Ore",
   "block.anare.mythril_block": "Block of Mythril",
   "block.anare.raw_mythril_block": "Block of Raw Mythril",
+  "block.anare.mythril_stairs": "Mythril Stairs",
+  "block.anare.mythril_forge": "Mythril Forge",
+
   "block.anare.mythril_anvil_block": "Mythril Anvil",
   "tooltip.anare.arcane_anvil_block": "Drop items ontop and use a hammer on it, items can break down into essence",
 

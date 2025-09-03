@@ -55,11 +55,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.MYTHRIL_BLOCK),conditionsFromItem(ModBlocks.MYTHRIL_BLOCK))
                 .offerTo(recipeExporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MYTHRIL_FORGE)
+                .pattern("XXX")
+                .pattern("XOX")
+                .pattern("XXX")
+                .input('X', ModBlocks.MYTHRIL_BLOCK)
+                .input('O', ModItems.FIRE_SEELE_EXTRACT)
+                .criterion(hasItem(ModBlocks.MYTHRIL_BLOCK),conditionsFromItem(ModBlocks.MYTHRIL_BLOCK))
+                .offerTo(recipeExporter);
+
         //Shapeless
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.FIRE_SEELE_EXTRACT)
                 .input(ModItems.FIRE_ESSENCE,8)
                 .input(ModItems.EMPTY_VIAL)
                 .criterion(hasItem(ModItems.FIRE_ESSENCE),conditionsFromItem(ModItems.FIRE_ESSENCE))
                 .offerTo(recipeExporter, Identifier.of(Anare.MOD_ID,"fire_extract_recipe"));
+
+        //Misc
+        //createStairsRecipe(ModBlocks.MYTHRIL_STAIRS,???)
     }
 }

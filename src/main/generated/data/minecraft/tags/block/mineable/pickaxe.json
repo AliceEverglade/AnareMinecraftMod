@@ -4,6 +4,8 @@
     "anare:mythril_block",
     "anare:mythril_anvil_block",
     "anare:mythril_ore",
-    "anare:mythril_deepslate_ore"
+    "anare:mythril_deepslate_ore",
+    "anare:mythril_stairs",
+    "anare:mythril_forge"
   ]
 }
